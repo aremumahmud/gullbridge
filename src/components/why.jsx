@@ -11,15 +11,15 @@ import 'animate.css'
 
 function Why(){
 
-    useEffect(() => {
-        // Configure the scroll reveal animation
-        ScrollReveal().reveal(".up", {
-          delay: 100,
-          origin: "bottom",
-          duration: 800,
-          scale: 1,
-        });
-    })
+    // useEffect(() => {
+    //     // Configure the scroll reveal animation
+    //     ScrollReveal().reveal(".up", {
+    //       delay: 100,
+    //       origin: "bottom",
+    //       duration: 800,
+    //       scale: 1,
+    //     });
+    // })
 
     return (
         <div className="why_us">

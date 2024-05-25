@@ -5,15 +5,15 @@ import Header from "./Header";
 import Button from "./button";
 
 function Hero() {
-  useEffect(() => {
-    // Configure the scroll reveal animation
-    ScrollReveal().reveal(".up", {
-      delay: 200,
-      origin: "bottom",
-      duration: 800,
-      scale: 1,
-    });
-  });
+  // useEffect(() => {
+  //   // Configure the scroll reveal animation
+  //   ScrollReveal().reveal(".up", {
+  //     delay: 200,
+  //     origin: "bottom",
+  //     duration: 800,
+  //     scale: 1,
+  //   });
+  // });
 
   let [hero , setHero] = useState(0)
   

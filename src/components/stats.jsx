@@ -28,14 +28,14 @@ function Stats() {
     });
   }
 
-  useEffect(() => {
-    // Configure the scroll reveal animation
-    ScrollReveal().reveal(".up", {
-      delay: 200,
-      origin: "bottom",
-      duration: 800,
-      scale: 1,
-    });
+  // useEffect(() => {
+  //   // Configure the scroll reveal animation
+  //   ScrollReveal().reveal(".up", {
+  //     delay: 200,
+  //     origin: "bottom",
+  //     duration: 800,
+  //     scale: 1,
+  //   });
 
     ScrollReveal().reveal(".upto", {
       delay: 200,
@@ -46,7 +46,6 @@ function Stats() {
         { limit: 9000, changer: setFour },
       ]),
     });
-  }, []);
   return (
     <div className="profession client stat">
       <p className="client_title up">Our Professional Statistics.</p>

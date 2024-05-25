@@ -8,15 +8,15 @@ import { useEffect } from "react";
 import { FaStar } from 'react-icons/fa6'
 
 function Review(){
-    useEffect(() => {
-        // Configure the scroll reveal animation
-        ScrollReveal().reveal(".up", {
-          delay: 200,
-          origin: "bottom",
-          duration: 800,
-          scale: 1,
-        });
-    })
+   //  useEffect(() => {
+   //      // Configure the scroll reveal animation
+   //      ScrollReveal().reveal(".up", {
+   //        delay: 200,
+   //        origin: "bottom",
+   //        duration: 800,
+   //        scale: 1,
+   //      });
+   //  })
     return (
 <div className="values_wrap">
 <p className="title_v up">Our Customer Reviews</p>
