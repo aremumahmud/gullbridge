@@ -19,9 +19,9 @@ function Review(){
    //  })
     return (
 <div className="values_wrap">
-<p className="title_v up">Our Customer Reviews</p>
+<p className="title_v">Our Customer Reviews</p>
 <div className="values">
-    <div className="value up">
+    <div className="value">
      <div className="user">
        <div className="userImg">
         <img src={svg1} alt="" />
@@ -42,7 +42,7 @@ function Review(){
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias debitis eum, nostrum ratione rem quo enim ullam, iste, neque veniam adipisci nesciunt! Odit, unde nam eum itaque debitis distinctio delectus.
      </div>
     </div>
-    <div className="value up">
+    <div className="value">
     <div className="user">
        <div className="userImg">
        <img src={svg2} alt="" />
@@ -63,7 +63,7 @@ function Review(){
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nostrum, repellat deserunt similique aspernatur iusto eum ipsa laborum, amet nesciunt quia? Culpa a commodi, dignissimos possimus fuga quaerat doloribus? Nesciunt!
      </div>
     </div>
-    <div className="value up">
+    <div className="value">
     <div className="user">
        <div className="userImg"> <img src={svg3} alt="" /></div>
        <div className="info">
