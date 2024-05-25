@@ -4,19 +4,9 @@ import svg1 from '../assets/team-img-01.jpg'
 import svg2 from '../assets/team-img-02.jpg'
 import svg4 from '../assets/team-img-03.jpg'
 import svg3 from '../assets/team-img-04.jpg'
-import ScrollReveal from "scrollreveal";
-import { useEffect } from "react";
 
 function OurTeam(){
-    // useEffect(() => {
-    //     // Configure the scroll reveal animation
-    //     ScrollReveal().reveal(".up", {
-    //       delay: 100,
-    //       origin: "bottom",
-    //       duration: 800,
-    //       scale: 1,
-    //     });
-    // })
+ 
     return (
 <div className="values_wrap team">
 <p className="title_v up">Our Team of Experts</p>

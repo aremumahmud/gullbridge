@@ -3,25 +3,16 @@ import '../css/review.css'
 import svg1 from '../assets/testimonial-01-150x150.jpg'
 import svg2 from '../assets/testimonial-02-150x150.jpg'
 import svg3 from '../assets/testimonial-03-150x150.jpg'
-import ScrollReveal from "scrollreveal";
-import { useEffect } from "react";
+
 import { FaStar } from 'react-icons/fa6'
 
 function Review(){
-   //  useEffect(() => {
-   //      // Configure the scroll reveal animation
-   //      ScrollReveal().reveal(".up", {
-   //        delay: 200,
-   //        origin: "bottom",
-   //        duration: 800,
-   //        scale: 1,
-   //      });
-   //  })
+  
     return (
 <div className="values_wrap">
-<p className="title_v">Our Customer Reviews</p>
+<p className="title_v up">Our Customer Reviews</p>
 <div className="values">
-    <div className="value">
+    <div className="value up">
      <div className="user">
        <div className="userImg">
         <img src={svg1} alt="" />
@@ -42,7 +33,7 @@ function Review(){
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias debitis eum, nostrum ratione rem quo enim ullam, iste, neque veniam adipisci nesciunt! Odit, unde nam eum itaque debitis distinctio delectus.
      </div>
     </div>
-    <div className="value">
+    <div className="value up">
     <div className="user">
        <div className="userImg">
        <img src={svg2} alt="" />
@@ -63,7 +54,7 @@ function Review(){
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nostrum, repellat deserunt similique aspernatur iusto eum ipsa laborum, amet nesciunt quia? Culpa a commodi, dignissimos possimus fuga quaerat doloribus? Nesciunt!
      </div>
     </div>
-    <div className="value">
+    <div className="value up">
     <div className="user">
        <div className="userImg"> <img src={svg3} alt="" /></div>
        <div className="info">

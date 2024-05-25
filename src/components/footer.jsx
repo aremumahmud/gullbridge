@@ -33,7 +33,7 @@ function Footer() {
                 <li>Real Estate</li>
                 <li>Renewable Power & Transition</li>
                 <li>Technology</li>
-                <li>Finance</li>
+                <li>Finance & Credit</li>
             </ul>
             <ul>
                 <li>Public Investors</li>

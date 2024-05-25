@@ -4,6 +4,7 @@ import './App.css'
 import './css/responsive.css'
 
 import Home from './components/Home';
+import AssetInfo from './components/AssetInfo';
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
  
        <Routes>
           <Route path="/" element={<Home Link={Link}/>}/>
+          <Route path="/asset/management-info" element={<AssetInfo Link={Link}/>}/>
        </Routes>
      
     </Router>

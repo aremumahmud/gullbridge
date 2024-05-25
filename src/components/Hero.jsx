@@ -1,7 +1,7 @@
 import "../css/hero.css";
-import ScrollReveal from "scrollreveal";
+
 import { useEffect, useState } from "react";
-import Header from "./Header";
+
 import Button from "./button";
 
 function Hero() {
@@ -20,7 +20,7 @@ function Hero() {
 let tests = ["Unlock the Power of Diversification with Our Asset Management Solutions"," Invest Confidently: Absolute Returns with Robust Risk Management",'Unlock Market Insights: Stay Ahead with Gullbridge’s Expert Strategies']
 let animations = [
   "animate__animated animate__fadeInLeft",
-  "animate__animated animate__fadeInBottom",
+  "animate__animated animate__fadeInDown",
   "animate__animated animate__fadeInLeft"
 ]
   useEffect(()=>{

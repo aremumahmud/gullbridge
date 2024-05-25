@@ -1,21 +1,11 @@
 
 import aboutImg from '../assets/hero1.jpg'
 import "../css/aboutus.css";
-import ScrollReveal from "scrollreveal";
-import { useEffect } from "react";
+
 
 
 function AboutUs() {
 
-//   useEffect(() => {
-//     // Configure the scroll reveal animation
-//     ScrollReveal().reveal(".up", {
-//       delay: 200,
-//       origin: "bottom",
-//       duration: 800,
-//       scale: 1,
-//     });
-// })
   return (
     <section style={{paddingLeft:'4.5rem'}} className="about-section" id="about">
      <br />

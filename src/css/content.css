@@ -1,0 +1,42 @@
+.content {
+    padding: 3rem;
+    /* display: flex; */
+}
+
+.content .content_title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content .content_content .content_writup {
+    font-weight: 350;
+    margin-bottom: 1rem;
+    line-height: 1.3rem;
+    width: 90%;
+}
+
+.segment ol {
+    /* list-style-type: none; */
+    padding-left: 2rem;
+    /* border: 1px solid; */
+    margin-bottom: 2rem;
+}
+
+.segment {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.segment ol li {
+    padding: .5rem;
+    font-weight: 350;
+}
+
+.content_little {
+    margin-bottom: .5rem;
+}
+
+.content img {
+    width: 50%;
+    margin-bottom: 1.5rem;
+}

@@ -5,21 +5,12 @@ import a3 from '../assets/s3.jpg'
 import a4 from '../assets/s4.jpg'
 import a5 from '../assets/s5.jpg'
 import a6 from '../assets/s6.jpg'
-import ScrollReveal from "scrollreveal";
-import { useEffect } from "react";
+
 import 'animate.css'
 
 function Why(){
 
-    // useEffect(() => {
-    //     // Configure the scroll reveal animation
-    //     ScrollReveal().reveal(".up", {
-    //       delay: 100,
-    //       origin: "bottom",
-    //       duration: 800,
-    //       scale: 1,
-    //     });
-    // })
+   
 
     return (
         <div className="why_us">

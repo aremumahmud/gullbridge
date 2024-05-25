@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa6";
 // import { FaWandMagicSparkles } from "react-icons/fa6";
 import ScrollReveal from "scrollreveal";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function Stats() {
  
