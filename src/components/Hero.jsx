@@ -24,7 +24,7 @@ let animations = [
   "animate__animated animate__fadeInLeft"
 ]
 
-let images = ["../src/assets/hero5.jpg","../src/assets/IMG-20240526-WA0130.jpg","../src/assets/IMG-20240526-WA0133.jpg"]
+let images = ["../assets/hero5.jpg","../assets/IMG-20240526-WA0130.jpg","../assets/IMG-20240526-WA0133.jpg"]
   useEffect(()=>{
      
     let interval = setInterval(()=>{
