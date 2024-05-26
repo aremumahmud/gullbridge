@@ -1,6 +1,6 @@
 import '../css/header.css'
 import logo from '../assets/logo1.jpg'
-import {FaBars, FaDollarSign, FaGears, FaHandshake, FaHouse, FaNewspaper, FaPhone, FaX} from 'react-icons/fa6'
+import {FaArrowDownUpLock, FaBars, FaBriefcase, FaDollarSign, FaGears, FaHandshake, FaHouse, FaNewspaper, FaPhone, FaShop, FaX} from 'react-icons/fa6'
 import { useEffect, useState } from 'react'
 
 function Header(){
@@ -18,16 +18,16 @@ function Header(){
          <div className="header_wrap">
 <div className="left_menu">
     <ul>
-        <li><FaHouse /><a href="/">Home</a></li>
-        <li><FaGears /><a href="#services">Services</a></li>
+        <li><FaHouse /><a href="/the-firm">The Firm</a></li>
+        <li><FaShop /><a href="#services">Businesses</a></li>
         <li><FaNewspaper /><a href="#news">News & Insights</a></li>
     </ul>
 </div>
 <div className="logo">  <a href="/"><img src={logo} alt="" /></a></div>
 <div className="right_menu">
 <ul>
-        <li><FaHandshake /> <a href="#about">What we do</a></li>
-        <li><FaDollarSign />Funding</li>
+        <li><FaArrowDownUpLock /> <a href="#about">Investor Login</a></li>
+        <li><FaBriefcase />Careers</li>
      <li><FaPhone />  <a href="#contact">Contacts</a> </li>
     </ul>
 </div>

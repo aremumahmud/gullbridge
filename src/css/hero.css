@@ -4,7 +4,6 @@
     height: calc(100% + 20px);
     width: 100%;
     align-items: center;
-    background-image: url(../assets/hero5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -23,7 +22,7 @@
     line-height: 1.5rem;
     letter-spacing: .05rem;
     word-spacing: .02rem;
-    width: 40%;
+    width: 45%;
     margin-left: 5%;
 }
 

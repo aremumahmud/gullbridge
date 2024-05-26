@@ -23,6 +23,8 @@ let animations = [
   "animate__animated animate__fadeInDown",
   "animate__animated animate__fadeInLeft"
 ]
+
+let images = ["../src/assets/hero5.jpg","../src/assets/IMG-20240526-WA0130.jpg","../src/assets/IMG-20240526-WA0133.jpg"]
   useEffect(()=>{
      
     let interval = setInterval(()=>{
@@ -36,7 +38,7 @@ let animations = [
   return (
     <>
       {" "}
-      <div className="hero">
+      <div className="hero " style={{  backgroundImage: `url(${images[hero]})`}}>
         <div className="section1">
 
           <p className={"main up "+ animations[hero]}>

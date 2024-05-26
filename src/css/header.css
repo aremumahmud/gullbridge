@@ -27,7 +27,7 @@
 
 .header_wrap .left_menu {
     /* border: 1px solid; */
-    width: 30%;
+    width: 34%;
 }
 
 .header_wrap .right_menu {
@@ -47,7 +47,9 @@
     margin-right: 6%;
     display: flex;
     align-items: center;
+    font-weight: 300;
     gap: .3rem;
+    font-size: .9rem;
 }
 
 .header_wrap .right_menu ul {
@@ -61,8 +63,10 @@
     display: inline-block;
     margin-left: 6%;
     display: flex;
+    font-weight: 300;
     align-items: center;
     gap: .3rem;
+    font-size: .9rem;
 }
 
 .hidden_menu {

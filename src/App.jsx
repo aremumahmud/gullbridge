@@ -16,7 +16,7 @@ import AssetInfo from "./components/AssetInfo";
 import ContentData from "./data/content";
 import a1 from "./assets/a1.jpg";
 import a2 from "./assets/q1.jpg";
-import a3 from "./assets/q2.jpg";
+import a3 from "./assets/s6.jpg";
 import a4 from "./assets/q3.jpg";
 import a5 from "./assets/q4.jpg";
 import BlogData from "./data/blog";

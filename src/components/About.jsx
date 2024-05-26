@@ -1,4 +1,5 @@
 
+import { useEffect, useState } from 'react';
 import aboutImg from '../assets/hero1.jpg'
 import "../css/aboutus.css";
 import Button from './button';
@@ -6,6 +7,32 @@ import Button from './button';
 
 
 function AboutUs() {
+
+
+  let headtxt = ["Join us in building a portfolio that is timeless.","Investment in AI","One Step Ahead"]
+  let text = [
+    
+  `With almost a decade of experience in the asset management industry, we at Gullbridge have honed our expertise to deliver exceptional financial growth and stability for our clients. Our proven track record is built on a foundation of meticulous research, strategic investment, and unwavering commitment to our clients' success.`,
+  `In the rapidly evolving world of finance, leveraging artificial intelligence (Al) is transforming asset management into a more precise, efficient, and forward- thinking discipline. At Gullbridge, we are at the forefront of integrating Al into our investment strategies, revolutionizing how we manage and grow our clients' assets.`,
+  `Through a combination of advanced analytics, innovative strategies, and a relentless pursuit of excellence, we consistently anticipate market movements and identify opportunities before they arise.`
+]
+
+let animations = [
+  "animate__animated animate__fadeInUp",
+  "animate__animated animate__fadeInDown",
+  "animate__animated animate__fadeInUp"
+]
+let [hero , setHero] = useState(0)
+useEffect(()=>{
+     
+  let interval = setInterval(()=>{
+    
+    setHero(onting => onting >= 2 ? 0: (onting + 1))
+  } , 5000)
+
+  return ()=>clearInterval(interval)
+}, [])
+
 
   return (
     <section  style={{paddingLeft:'4.5rem'}} className="about-section" id="about">
@@ -18,20 +45,15 @@ function AboutUs() {
             <div className="inner-column">
               <div className="sec-title">
                 <div className="title">About Us</div>
-                <h2 className='titi'>
-                Join us in building a portfolio that is timeless. 
+                
+                <h2 className={'titi ' + animations[hero]}>
+               {headtxt[hero]}
 
                 </h2>
               </div>
-              <div className="text">
-              With almost a decade of experience in the asset management industry, we at Gullbridge have honed our expertise to deliver exceptional financial growth and stability for our clients. Our proven track record is built on a foundation of meticulous research, strategic investment, and unwavering commitment to our clients' success. 
-              <br /><br />
-<p  style={{color:'black'}}>Investment in AI</p>
-              In the rapidly evolving world of finance, leveraging artificial intelligence (Al) is transforming asset management into a more precise, efficient, and forward- thinking discipline. At Gullbridge, we are at the forefront of integrating Al into our investment strategies, revolutionizing how we manage and grow our clients' assets. 
+              <div className={"text " + animations[hero]}>
+                {text[hero]}
 
-              <br /><br />
-              <p style={{color:'black'}}>One Step Ahead</p>
-              Through a combination of advanced analytics, innovative strategies, and a relentless pursuit of excellence, we consistently anticipate market movements and identify opportunities before they arise.
               </div>
               {/* <div className="email">
                 Request Quote:{" "}

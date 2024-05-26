@@ -4,8 +4,10 @@ import svg1 from '../assets/IMG-20240526-WA0036.jpg'
 import svg2 from '../assets/IMG-20240525-WA0061.jpg'
 import svg4 from '../assets/IMG-20240525-WA0059.jpg'
 import svg3 from '../assets/IMG-20240525-WA0060.jpg'
-import svg5 from '../assets/profile-pic 11.png'
+import svg5 from '../assets/IMG-20240526-WA0100.jpg'
 import svg6 from '../assets/profile-pic 18.png'
+// import '../assets/IMG-20240526-WA0130.jpg'
+// import '../assets/IMG-20240526-WA0133.jpg'
 
 function OurTeam(){
  
