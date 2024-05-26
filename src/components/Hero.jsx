@@ -4,6 +4,10 @@ import { useEffect, useState } from "react";
 
 import Button from "./button";
 
+import B1 from "../assets/hero5.jpg"
+import B2 from "../assets/IMG-20240526-WA0130.jpg"
+import B3 from "../assets/IMG-20240526-WA0133.jpg"
+
 function Hero() {
   // useEffect(() => {
   //   // Configure the scroll reveal animation
@@ -24,7 +28,7 @@ let animations = [
   "animate__animated animate__fadeInLeft"
 ]
 
-let images = ["../assets/hero5.jpg","../assets/IMG-20240526-WA0130.jpg","../assets/IMG-20240526-WA0133.jpg"]
+let images = [B1,B2,B3]
   useEffect(()=>{
      
     let interval = setInterval(()=>{
