@@ -31,7 +31,7 @@ function Home(){
        
        <Stats />
          <br /><br />
-         <Review />  
+         {/* <Review />   */}
          <News />
       <Footer /> 
        

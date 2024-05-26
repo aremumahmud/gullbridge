@@ -55,7 +55,7 @@ const BlogData  = [
     }, 
      {
         category:'Weekly Review',
-        date:"By Joseph Mozube - April 25, 2024",
+        date:"By Joseph Mozube - May 24, 2024",
         title: 'Navigating a Week of Economic Crosswinds: Insights and Strategies',
         content: <>
         <div className="segment">
@@ -109,7 +109,7 @@ const BlogData  = [
         {
 
             category:'Market Review',
-            date:"April 25, 2024",
+            date:"May 23, 2024",
             title: `U.S. Stock Market Resilience: Analyzing This Week's Performance Amid Economic Crosswinds `,
             content: <>
             <div className="segment">
@@ -176,7 +176,7 @@ const BlogData  = [
         {
 
             category:'Weekly Review',
-            date:"April 25, 2024",
+            date:"April 29, 2024",
             title: `Global Economic Focus Shifts to Africa: Emerging Opportunities and Strategic Implications`,
             content: <>
             <div className="segment">

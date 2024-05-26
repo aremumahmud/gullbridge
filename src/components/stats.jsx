@@ -19,7 +19,7 @@ function Stats() {
   let [two , setTwo] = useState(0)
   let [four, setFour] = useState(0);
 
-useEffect(() => {  
+
   function stopwatch(data) {
     data.forEach((dt) => {
       let { limit, changer } = dt;
@@ -30,27 +30,30 @@ useEffect(() => {
           limit_reached++;
           return prev + 1;
         });
-      }, 10);
+      }, 100);
     });
   }
 
+useEffect(() => {  
+ 
+
   // 
     // // Configure the scroll reveal animation
-    // ScrollReveal().reveal(".up", {
-    //   delay: 200,
-    //   origin: "bottom",
-    //   duration: 800,
-    //   scale: 1,
-    // });
+    ScrollReveal().reveal(".up", {
+      delay: 200,
+      origin: "bottom",
+      duration: 800,
+      scale: 1,
+    });
 
     ScrollReveal().reveal(".upto", {
       delay: 200,
       origin: "bottom",
-      duration: 500,
+      duration: 800,
       scale: 1,
       beforeReveal: ()=> stopwatch([
-        { limit: 9, changer: setFour },
-        { limit: 200, changer: setOne },
+        { limit: 13, changer: setFour },
+        { limit: 150, changer: setOne },
         { limit: 15, changer: setTwo },
       ]),
     });
@@ -58,7 +61,7 @@ useEffect(() => {
   return (
     <div className="profession client stat">
       <p className="client_title up">Our Professional Statistics.</p>
-      <div className="some_summary">
+      <div className="some_summary up" >
         <div className="some_wrapper stats upto">
           <div className="some">
             <div className="stt">

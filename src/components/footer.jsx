@@ -23,10 +23,10 @@ function Footer() {
         <div className="linksection">
             <ul>
                 <li>Quick Links</li>
-                <li>The Firm</li>
+                <li><a href="/the-firm">The Firm</a> </li>
                 <li>Leadership</li>
-                <li>News & Insights</li>
-                <li>Careers</li>
+                <li><a href="#news"> News & Insights</a></li>
+                <li><a href="/career">Careers</a></li>
             </ul>
             <ul>
                 <li>Our Business</li>

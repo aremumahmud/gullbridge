@@ -14,27 +14,26 @@ function Why(){
 
     return (
         <div className="why_us" id='services'>
-          <p className="title_Y">We offer great number of
-finance services</p>
+          <p className="title_Y">Our Business Segment</p>
           <div className="images">
             <div className="image up">
                 <div className="text">
                     <p>Asset Management</p>
-                    <p>25 years of industry expertise, guiding you with seasoned knowledge.</p>
+                    <p>Optimize your wealth with our expert asset management solutions.</p>
                 </div>
                 <img src={a4} alt="" />
             </div>
             <div className="image up">
             <div className="text">
                 <p>Private Equity</p>
-                <p>Dependable solutions, ensuring your financial journey stays secure. </p>
+                <p>Unlock growth potential with our private equity expertise </p>
             </div>
                 <img src={a5} alt="" />
             </div>
             <div className="image up">
             <div className="text">
                 <p>Real Estate</p>
-                <p>Our promise: satisfaction and success every step of the way.</p>
+                <p>Maximize returns with strategic real estate investments</p>
             </div>
                 <img src={a6} alt="" />
             </div>
@@ -43,22 +42,23 @@ finance services</p>
           <div className="images">
             <div className="image up">
                 <div className="text">
-                    <p>Innovation & Technology</p>
-                    <p>25 years of industry expertise, guiding you with seasoned knowledge.</p>
+                    <p>Technology & Innovation</p>
+                    <p>Drive future growth with tech & innovation investments</p>
                 </div>
                 <img src={a1} alt="" />
             </div>
             <div className="image up">
             <div className="text">
                 <p>Finance & Credit</p>
-                <p>Dependable solutions, ensuring your financial journey stays secure. </p>
+                <p>Achieve financial success with tailored credit strategies </p>
             </div>
                 <img src={a2} alt="" />
             </div>
             <div className="image up">
             <div className="text">
-                <p>Capital Restructuring</p>
-                <p>Our promise: satisfaction and success every step of the way.</p>
+                <p>Renewable Energy & Transition</p>
+               
+                <p style={{top:'83%'}}>Invest in the future with renewable energy solutions.</p>
             </div>
                 <img src={a3} alt="" />
             </div>

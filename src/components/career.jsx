@@ -6,38 +6,42 @@ import "../css/firm.css";
 import Content from "./content";
 
 import firm_cover from "../assets/hire-cover.jpg";
-import sky from "../assets/sky2.jpg";
+import sky from "../assets/sky1.jpg";
 import Question from "./question";
 import ceo from "../assets/profile-pic 11.png";
+import Button from "./button";
+import ButtonApply from "./btnapply";
 
 let qa = [
   {
-    q: "Institutional Investors",
-    a: "For our investors, who include retirement systems that account for more than 70 million pensioners, we have produced gains totaling $238 billion. ",
+    q: "Investment Management",
+    a: "Work with our expert teams to develop and manage investment portfolios that drive growth and maximize returns.",
   },
   {
-    q: "Individual Investors",
-    a: "Through our connections with financial advisors, we are able to enable access to institutional-quality assets and private markets, managing $241 billion in AUM from the private wealth channel. ",
+    q: "Real Estate",
+    a: `Be part of a team that identifies and manages high-quality real estate investments across various sectors.
+    `,
+  },{
+    q:'Private Equity',
+    a:`Collaborate with visionary entrepreneurs and businesses to unlock potential and create sustainable value.
+    `
+  },{
+    q:'Technology and Innovation',
+    a: `Drive technological advancements and support the development of groundbreaking solutions.
+    `
   },
+  {
+    q:'Renewable Power',
+    a:`Contribute to sustainable energy projects and help build a cleaner, more resilient future.
+    `
+  },{
+    q:'Finance and Operations',
+    a:`Support the financial backbone of our firm with roles in corporate finance, structured finance, and operations.
+    `
+  }
 ];
 
-let qa1 = [
-  {
-    q: "Innovation at the Forefront of Investing",
-    a: `Our people are relentless in seeking a better way. Each day, we reimagine and refine our strategies, models and technology in pursuit of superior results and longterm performance.
-    `,
-  },
-  {
-    q: "Capturing Market Opportunities",
-    a: `Our thinking reveals possibilities unimagined by others. Together, we move swiftly to capture opportunities in the markets.
-    `,
-  },
-  {
-    q: "Collaboration",
-    a: `We believe in the power of teamwork, fostering a collaborative environment that harnesses the expertise and creativity of our diverse team.
-    `,
-  },
-];
+
 
 function Career() {
   return (
@@ -53,7 +57,7 @@ function Career() {
           {
             title: "Careers",
             content: (
-              <>
+              < >
                 <div className="segment">
                   <p className="content_writup">
                     Our perspectives are slightly different. We think that the
@@ -94,7 +98,7 @@ function Career() {
           <div className="img_sec">
             <img src={sky} alt="" />
           </div>
-          <div className="text_sec">
+          <div className="text_sec career">
             <div className="segment">
               <p className="content_title"> Innovative Environment</p>
               <p className="content_writup">
@@ -163,48 +167,38 @@ function Career() {
             </div>
           </div>
         </div>
+
+
       </div>
-      <br />
-      <br />
+      
       <div className="firm_about">
-        <div className="questions">
-          <p className="q_title">Our Clients</p>
-          {qa.map((data) => {
-            return <Question key={1} q={data.q} a={data.a} />;
-          })}
-        </div>
+      <div className="questions">
+            <p className="q_title" style={{marginBottom:'.5rem'}}>
+                Career Paths
+            </p> 
+            <p style={{fontWeight:'300', marginBottom:'3rem'}}>
+            Explore a variety of career paths at Gullbridge:
+            </p>
+           {
+                qa.map((data)=>{
+                    return <Question key={1} q={data.q} a={data.a}/>
+                })
+            }
+
+<br /><br />
+<p className="q_title" style={{marginBottom:'1.3rem'}}>
+                Join Us
+            </p>
+            
+            <p style={{fontWeight:'300', marginBottom:'3rem'}}>  Are you ready to take your career to the next level? Explore our current job openings and discover how you can make a difference at Gullbridge. We are
+always looking for talented individuals who share our passion for excellence and innovation.</p>
+<a className='bout' style={{marginLeft:'0'}} ><ButtonApply /></a>
       </div>
-      <div className="why_us firm center_firm">
-        <div className="firm_sec around">
-          <div className="img_sec ceo">
-            <img src={ceo} alt="" />
-          </div>
-          <div className="text_sec">
-            <div className="segment">
-              <p className="content_writup quote">
-                {`
-                    "Our ability to innovate, use outstanding personnel, diversify our investments, put the requirements of our clients first, and maintain our dedication to sustainability
-                    and excellence allows us to stay one step ahead of the competition.
-                    "`}
-              </p>
-              <div className="author">
-                <p>Joseph Mozube</p>
-                <p>Chairman & CEO </p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <br />
       <br />
-      <div className="firm_about">
-        <div className="questions">
-          <p className="q_title">We also do ....</p>
-          {qa1.map((data) => {
-            return <Question key={1} q={data.q} a={data.a} />;
-          })}
-        </div>
-      </div>
+   
+
       <Footer />
     </>
   );

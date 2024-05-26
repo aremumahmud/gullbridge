@@ -31,7 +31,7 @@ function News(){
                 </div>
                 <a href={'/blogs/article/'+ data.title.split(' ')[0].toLowerCase()+ '/' + data.title.split(' ')[1].toLowerCase() }> <div className="news_footer">
                     <p>{data?.category}</p>
-                    <p>April 25, 2024</p>
+                    <p>{data?.date.replace("By Joseph Mozube -", '')}</p>
                 </div></a>
             </div>
                 })

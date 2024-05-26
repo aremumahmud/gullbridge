@@ -32,7 +32,7 @@ Diversified Investment Approach </p>
     </div>
     <div className="value">
     <div className="img up">
-              <img src={svg2} alt="" />
+              <img src={svg4} alt="" />
             </div>
        <div className="content up">
         <p>
@@ -52,7 +52,7 @@ Diversified Investment Approach </p>
     </div>
     <div className="value">
     <div className="img up">
-             <img src={svg4} alt="" />
+             <img src={svg2} alt="" />
             </div>
             <div className="content up">
         <p>ESG and Sustainable Investing</p>
