@@ -30,7 +30,7 @@ function Stats() {
           limit_reached++;
           return prev + 1;
         });
-      }, 100);
+      }, 10);
     });
   }
 
@@ -52,7 +52,7 @@ useEffect(() => {
       duration: 800,
       scale: 1,
       beforeReveal: ()=> stopwatch([
-        { limit: 13, changer: setFour },
+        { limit: 9, changer: setFour },
         { limit: 150, changer: setOne },
         { limit: 15, changer: setTwo },
       ]),
