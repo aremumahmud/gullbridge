@@ -47,7 +47,7 @@ useEffect(() => {
     });
 
     ScrollReveal().reveal(".upto", {
-      delay: 200,
+      delay: 400,
       origin: "bottom",
       duration: 800,
       scale: 1,
