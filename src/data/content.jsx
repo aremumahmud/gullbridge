@@ -37,6 +37,22 @@ const ContentData = [
     `}
    
     </p>
+    <div className="segment">
+    <p className="content_little">
+       Key Strategy
+    </p>
+    <ol>
+        <li>Evaluating the Quality of Business</li>
+        <li>Purchasing for Value</li>
+       
+        <li>Enhancing Processes to generate Value</li>
+        {/* <li>Sustainable Property Aquisition</li> */}
+    </ol>
+
+    <p className="content_writup">
+    In our private equity approach, we are dedicated to investing in high-quality businesses that deliver essential products and services across diverse sectors such as industrial, infrastructure, and business services. By collaborating closely with management teams, we strive to foster long-term success through operational improvements and strategic enhancements. Our global team of investment and asset management professionals, supported by our private equity operating business employees, ensures a robust focus on our private equity strategy.
+    </p>
+    </div>
     </>
 },
 {

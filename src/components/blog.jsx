@@ -4,19 +4,18 @@ import Header from "./Header"
 import AssetHero from "./assetHero"
 import Content from "./content"
 import Footer from "./footer"
-import Questions from "./questions"
 
-function AssetInfo({data , image}){
+
+function Blog({data , image}){
     return (
 <>
 <Header />
 <br /><br /><br /><br />
-<AssetHero image={image} name={data?.title}/>
-<Content content={[data]} image={image}/>
-<Questions />
+<AssetHero data={data} image={image} name={data?.title}/>
+<Content content={[data]} />
 <Footer />
 </>
     )
 }
 
-export default AssetInfo
+export default Blog

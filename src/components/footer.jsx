@@ -1,17 +1,19 @@
 import logo from "../assets/logo1.jpg";
 import footer from '../assets/footer.jpg'
 import "../css/footer.css";
+import Button from "./button";
 function Footer() {
   return (
-    <div className="footer_wrap">
+    <div className="footer_wrap" id="contact">
       {" "}
       <div className="footer">
         <div className="section1_">
             <div>
                  <img src={logo} alt="" />
-                 <p>
-                 Gullbridge is a distinguished firm renowned for its diverse portfolio and strategic presence across multiple industries. With a commitment to innovation, sustainable practices, and impactful leadership, the firm has emerged as a global force shaping the future of business and industries.
+                 <p className="footer_title">
+                 Stay ahead with cutting-edge insights
                     </p>
+                    <a style={{marginLeft:'0'}} href="https://forms.gle/5WFuiwxC4BC7jTbs5"><Button /></a>
             </div>
          
           
@@ -28,29 +30,28 @@ function Footer() {
             </ul>
             <ul>
                 <li>Our Business</li>
-                <li>Gullbridge Asset Management</li>
-                <li>Private Equity</li>
-                <li>Real Estate</li>
+                <li><a href="/asset/management">Gullbridge Asset Management</a></li>
+                <li><a href="/private/equity">Private Equity</a></li>
+                <li><a href="/real/estate">Real Estate</a></li>
                 <li>Renewable Power & Transition</li>
-                <li>Technology</li>
-                <li>Finance & Credit</li>
+                <li><a href="/technology/and">Technology</a></li>
+                <li><a href="/finance/and">Finance & Credit </a></li>
             </ul>
-            <ul>
+            {/* <ul>
                 <li>Public Investors</li>
                 <li>Gullbridge Co-operation</li>
-                <li>Gullbridge Asset Management</li>
+                <li><a href="/asset/management">Gullbridge Asset Management</a> </li>
                 <li>Gullbridge Reinsurance</li>
                 <li>Gullbridge Real Estate Partners</li>
                 <li>Gullbridge Renewable Partners</li>
                 <li>Gullbridge Bussiness Partners</li>
-            </ul>
-            <ul>
+            </ul> */}
+            {/* <ul>
                 <li>Private</li>
                 <li>Institutional Investors</li>
                 <li>Financial Advisors</li>
-                {/* <li></li>
-                <li></li> */}
-            </ul>
+                
+            </ul> */}
             <ul>
                 <li>Get in Touch</li>
                 <li>Contact Us</li>
@@ -60,10 +61,10 @@ function Footer() {
             </ul>
         </div>
         <div className="section2_">
-          <div className="footer_sec">
+          {/* <div className="footer_sec">
             <p className="title">Our Address</p>
             <p>Valentin, Street Road 24, New York, USA - 67452</p>
-          </div>
+          </div> */}
           <div className="footer_sec">
             <p className="title">Contact Us</p>
             <p>contact@gullbridge.com</p>

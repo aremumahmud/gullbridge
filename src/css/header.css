@@ -11,6 +11,11 @@
     color: #ffffffde;
 }
 
+.ming {
+    z-index: 999;
+    position: fixed;
+}
+
 .header_wrap .logo {
     width: 12%;
 }
@@ -61,4 +66,23 @@
 
 .hidden_menu {
     display: none;
+}
+
+.header_wrap a {
+    color: #fff !important;
+    margin: 0;
+}
+
+.menu {
+    background-color: #1c202b;
+    border-top: #ccccccb7 solid 1px;
+}
+
+.menu ul li {
+    padding: 1rem;
+    color: #fff;
+    opacity: .9;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }

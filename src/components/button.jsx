@@ -3,15 +3,15 @@ import '../css/button.css'
 function Button (){
     return (
         <button className="btn-53">
-  <div className="original">Contact Us</div>
+  <div className="original">Get Started</div>
   <div className="letters">
     
-    <span>C</span>
-    <span>O</span>
-    <span>N</span>
+    <span>G</span>
+    <span>E</span>
+    <span>T S</span>
     <span>T</span>
     <span>A</span>
-    <span>CT US</span>
+    <span>RTED</span>
   </div>
 </button>
 

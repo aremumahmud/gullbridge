@@ -23,6 +23,19 @@
     padding-bottom: 1rem;
 }
 
-.team .value {
+.team .values {
+    overflow-x: scroll;
+    width: 100% !important;
+    scroll-snap-type: x mandatory;
+    padding-left: 50%;
+}
+
+.team .values .value {
     height: 90%;
+    width: 50% !important;
+    flex: 0 0 270px;
+    /* Fix the width of the value element */
+    /* background-color: #fff; */
+    padding: 10px;
+    scroll-snap-align: start;
 }

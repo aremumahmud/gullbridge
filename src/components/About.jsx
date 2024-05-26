@@ -1,13 +1,14 @@
 
 import aboutImg from '../assets/hero1.jpg'
 import "../css/aboutus.css";
+import Button from './button';
 
 
 
 function AboutUs() {
 
   return (
-    <section style={{paddingLeft:'4.5rem'}} className="about-section" id="about">
+    <section  style={{paddingLeft:'4.5rem'}} className="about-section" id="about">
      <br />
       <div className="container">
         <div className="row clearfix" style={{ display: "flex", alignItems:'center' }}>
@@ -25,15 +26,13 @@ to spend money.
                 </h2>
               </div>
               <div className="text">
-              For 25 years, we&apos;ve been dedicated to providing efficient loan and funding solutions tailored to your needs. Our extensive experience ensures that we understand the unique challenges you face and can offer expert guidance every step of the way. Trust us to help you secure the financial support necessary to achieve your goals and thrive in today&apos;s dynamic business landscape.
+              For 6+ years, we&apos;ve been dedicated to providing efficient loan and funding solutions tailored to your needs. Our extensive experience ensures that we understand the unique challenges you face and can offer expert guidance every step of the way. Trust us to help you secure the financial support necessary to achieve your goals and thrive in today&apos;s dynamic business landscape.
               </div>
               {/* <div className="email">
                 Request Quote:{" "}
                 <span className="theme_color">freequote@gmail.com</span>
               </div> */}
-              <a href="/register" className="btn">
-                Get Started
-              </a>
+             <a className='bout' style={{marginLeft:'0'}} href="https://forms.gle/5WFuiwxC4BC7jTbs5"><Button /></a>
             </div>
           </div>
 
@@ -46,7 +45,7 @@ to spend money.
                 <img src={aboutImg }alt="" />
                 <div className="overlay-box">
                   <div className="year-box">
-                    <span className="number">25</span>
+                    <span className="number">6</span>
                     <div style={{color:'rgb(251 251 251)'}}>
                      Tested <br />&{" "}
                     <br />Trusted

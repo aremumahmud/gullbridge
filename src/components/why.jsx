@@ -13,27 +13,27 @@ function Why(){
    
 
     return (
-        <div className="why_us">
+        <div className="why_us" id='services'>
           <p className="title_Y">We offer great number of
 finance services</p>
           <div className="images">
             <div className="image up">
                 <div className="text">
-                    <p>Inventory Management</p>
+                    <p>Asset Management</p>
                     <p>25 years of industry expertise, guiding you with seasoned knowledge.</p>
                 </div>
                 <img src={a4} alt="" />
             </div>
             <div className="image up">
             <div className="text">
-                <p>Consulting Service</p>
+                <p>Private Equity</p>
                 <p>Dependable solutions, ensuring your financial journey stays secure. </p>
             </div>
                 <img src={a5} alt="" />
             </div>
             <div className="image up">
             <div className="text">
-                <p>Bussiness Planning</p>
+                <p>Real Estate</p>
                 <p>Our promise: satisfaction and success every step of the way.</p>
             </div>
                 <img src={a6} alt="" />
@@ -43,14 +43,14 @@ finance services</p>
           <div className="images">
             <div className="image up">
                 <div className="text">
-                    <p>Wealth Management</p>
+                    <p>Innovation & Technology</p>
                     <p>25 years of industry expertise, guiding you with seasoned knowledge.</p>
                 </div>
                 <img src={a1} alt="" />
             </div>
             <div className="image up">
             <div className="text">
-                <p>Treasury Instruments</p>
+                <p>Finance & Credit</p>
                 <p>Dependable solutions, ensuring your financial journey stays secure. </p>
             </div>
                 <img src={a2} alt="" />

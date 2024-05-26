@@ -48,7 +48,7 @@ let animations = [
             <span> Start and grow your business with GULLBRIDGE&apos;s expert guidance and innovative solutions. From setup to expansion, we provide the tools and support for your success.</span>
          
           </p>
-          <Button />
+          <a href="https://forms.gle/5WFuiwxC4BC7jTbs5"><Button /></a>
           <br />
         </div>
         {/* <br /> */}

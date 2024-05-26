@@ -30,7 +30,7 @@ function Review(){
         <FaStar />
      </div>
      <div className="text_">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias debitis eum, nostrum ratione rem quo enim ullam, iste, neque veniam adipisci nesciunt! Odit, unde nam eum itaque debitis distinctio delectus.
+     I cannot recommend GULLBRIDGE enough! From the very beginning, their team provided exceptional guidance and support. They understood our business needs and offered tailored solutions that helped us secure the funding we needed to expand. Their expertise and dedication have been invaluable to our success. Thank you, GULLBRIDGE!
      </div>
     </div>
     <div className="value up">
@@ -51,7 +51,7 @@ function Review(){
         <FaStar />
      </div>
      <div className="text_">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nostrum, repellat deserunt similique aspernatur iusto eum ipsa laborum, amet nesciunt quia? Culpa a commodi, dignissimos possimus fuga quaerat doloribus? Nesciunt!
+     As the CFO of a growing company, partnering with GULLBRIDGE was one of the best decisions we've made. Their deep understanding of financial intricacies and their innovative funding solutions have significantly improved our cash flow management. The professionalism and reliability of the GULLBRIDGE team are unparalleled. They truly are a trusted financial partner.
      </div>
     </div>
     <div className="value up">
@@ -70,7 +70,7 @@ function Review(){
         <FaStar />
      </div>
      <div className="text_">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum neque voluptatum deleniti, quod obcaecati quibusdam quisquam et sint tempore. Cumque, at? Blanditiis vitae totam cumque cum atque quia sequi ea.
+     Working with GULLBRIDGE has been a seamless experience from a legal perspective. Their transparent processes and commitment to compliance ensured that all funding arrangements were handled with utmost care and legality. Their team's attention to detail and thorough understanding of financial regulations gave us complete confidence. I highly recommend GULLBRIDGE for their exceptional service and integrity.
      </div>
     </div>
    

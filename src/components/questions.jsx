@@ -3,7 +3,7 @@ import '../css/questions.css'
 import qa_data from '../data/qa'
 import Question from './question'
 
-function Questions(){
+function Questions({}){
     return (
         <div className="questions">
             <p className="q_title">

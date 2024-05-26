@@ -24,7 +24,7 @@
 }
 
 .footer .section1_ p {
-    width: 50%;
+    width: 60%;
     color: #fff;
     opacity: .9;
     font-weight: 200;
@@ -79,4 +79,27 @@
     font-size: 1.3rem !important;
     font-weight: 400;
     margin-bottom: 1rem;
+}
+
+.footer a {
+    color: #fff !important;
+}
+
+.footer_title {
+    font-size: 2rem;
+}
+
+.footer .btn-53 {
+    margin-left: 0;
+    border-radius: 10px;
+}
+
+.bout .btn-53 {
+    margin-left: 0;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.btn-53 {
+    border-radius: 10px;
 }
