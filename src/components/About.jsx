@@ -9,12 +9,12 @@ import Button from './button';
 function AboutUs() {
 
 
-  let headtxt = ["Join us in building a portfolio that is timeless.","Investment in AI","One Step Ahead"]
+  let headtxt = ["Premium Sourcing Expertise","End-to-End Bulk Procurement","Global Presence, Personalized Service"]
   let text = [
     
-  `With almost a decade of experience in the asset management industry, we at Gullbridge have honed our expertise to deliver exceptional financial growth and stability for our clients. Our proven track record is built on a foundation of meticulous research, strategic investment, and unwavering commitment to our clients' success.`,
-  `In the rapidly evolving world of finance, leveraging artificial intelligence (Al) is transforming asset management into a more precise, efficient, and forward- thinking discipline. At Gullbridge, we are at the forefront of integrating Al into our investment strategies, revolutionizing how we manage and grow our clients' assets.`,
-  `Through a combination of advanced analytics, innovative strategies, and a relentless pursuit of excellence, we consistently anticipate market movements and identify opportunities before they arise.`
+  `With nearly a decade of experience, we excel in helping businesses procure top-tier products directly from factories, ensuring quality and cost-efficiency.`,
+  `Our tailored solutions cover every step of the procurement process, from factory sourcing to on-time delivery, making your supply chain seamless.`,
+  `Operating across borders for over 10 years, we provide global procurement solutions with a focus on personalized service for each client.`
 ]
 
 let animations = [

@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 
 import Button from "./button";
 
-import B1 from "../assets/hero5.jpg"
-import B2 from "../assets/IMG-20240526-WA0130.jpg"
-import B3 from "../assets/IMG-20240526-WA0133.jpg"
+import B1 from "../assets/pexels-albinberlin-906982.jpg"
+import B2 from "../assets/pexels-mdx014-799091.jpg"
+import B3 from "../assets/pexels-samuel-wolfl-628277-1427541.jpg"
 
 function Hero() {
   // useEffect(() => {
@@ -21,8 +21,8 @@ function Hero() {
 
   let [hero , setHero] = useState(0)
   let bb = ""
-let subtext = ["Designed to enhance your portfolio and protect your investments, our Asset Management Solutions span multiple markets and asset classes. Let’s build resilience together.","Our robust risk management strategies ensure absolute returns, empowering you to navigate market fluctuations with peace of mind. Let's build a resilient investment plan together.","Our expert strategies provide you with the edge needed to navigate dynamic markets. Let's harness these insights together for your investment success."]
-let tests = ["Unlock Diversification with Our Asset Management Solutions"," Invest Confidently: Absolute Returns with Robust Risk Management",'Unlock Market Insights: Stay Ahead with Gullbridge’s Expert Strategies']
+let subtext = ["At Supplyshere International, we specialize in sourcing and delivering high-quality products directly from factories, ensuring value and efficiency for our clients worldwide.","As a consultant and supplier, we streamline sourcing and procurement to bring you premium products in bulk with unmatched quality and pricing.","Supplyshere International bridges the gap between factories and your business, offering expert consultancy and seamless delivery of high-quality bulk goods."]
+let tests = ["Connecting You to Premium Products at Factory Prices","Your Trusted Bulk Procurement Partner",'Global Procurement, Simplified']
 let animations = [
   "animate__animated animate__fadeInLeft",
   "animate__animated animate__fadeInDown",

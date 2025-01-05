@@ -62,11 +62,12 @@
 
 .linksection {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     color: #fff;
     opacity: .9;
     margin-top: 11rem;
     margin-bottom: 3rem;
+    gap: 10rem;
 }
 
 .linksection ul li {

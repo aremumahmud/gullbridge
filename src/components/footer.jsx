@@ -1,4 +1,4 @@
-import logo from "../assets/logo1.jpg";
+import logo from "../assets/c74f6086-4422-48d1-a29a-cc494bebdbc1_-_Copy-removebg-preview.png";
 import footer from '../assets/footer.jpg'
 import "../css/footer.css";
 import Button from "./button";
@@ -13,7 +13,7 @@ function Footer() {
                  <p className="footer_title">
                  Stay ahead with cutting-edge insights
                     </p>
-                    <a style={{marginLeft:'0'}} href="https://forms.gle/5WFuiwxC4BC7jTbs5"><Button /></a>
+                    <a style={{marginLeft:'0'}} href="#"><Button /></a>
             </div>
          
           
@@ -23,12 +23,12 @@ function Footer() {
         <div className="linksection">
             <ul>
                 <li>Quick Links</li>
-                <li><a href="/the-firm">The Firm</a> </li>
-                <li>Leadership</li>
-                <li><a href="#news"> News & Insights</a></li>
-                <li><a href="/career">Careers</a></li>
+                <li><a href="#">Home</a> </li>
+                <li>About Us</li>
+                <li><a href="#news"> Products</a></li>
+                {/* <li><a href="/career">Careers</a></li> */}
             </ul>
-            <ul>
+            {/* <ul>
                 <li>Our Business</li>
                 <li><a href="/asset/management">Gullbridge Asset Management</a></li>
                 <li><a href="/private/equity">Private Equity</a></li>
@@ -36,7 +36,7 @@ function Footer() {
                 <li>Renewable Power & Transition</li>
                 <li><a href="/technology/and">Technology</a></li>
                 <li><a href="/finance/and">Finance & Credit </a></li>
-            </ul>
+            </ul> */}
             {/* <ul>
                 <li>Public Investors</li>
                 <li>Gullbridge Co-operation</li>
@@ -54,9 +54,10 @@ function Footer() {
             </ul> */}
             <ul>
                 <li>Get in Touch</li>
-                <li>Contact Us</li>
-                <li>Our Office</li>
-                <li>Limited Partner Login</li>
+                <li>
++1 424-268-2507</li>
+                {/* <li>Our Office</li> */}
+                <li>ONE BRYANT PARK NEW YORK, NY 10036</li>
                 {/* <li></li> */}
             </ul>
         </div>
@@ -67,7 +68,8 @@ function Footer() {
           </div> */}
           <div className="footer_sec">
             <p className="title">Contact Us</p>
-            <p>contact@gullbridge.com</p>
+            <p>info@supplysphereinternational.com</p>
+          
           </div>
           {/* <div className="footer_sec"><p className="title">Our Socials</p></div> */}
         </div>
@@ -75,7 +77,7 @@ function Footer() {
       </div>
       <hr style={{ margin: "1rem", opacity: ".8" }} />
       <div className="separate" style={{ margin: "1rem", opacity: ".8" }}>
-        <p>Copyright © 2023 GULLBRIDGE, All Rights Reserved.</p>
+        <p>Copyright © 2025 Supply Sphere, All Rights Reserved.</p>
         <p>Terms & Conditions | Private Policy</p>
       </div>
       <br />

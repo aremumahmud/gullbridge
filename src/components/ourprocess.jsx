@@ -3,7 +3,7 @@ import '../css/our.css'
 function Our(){
     return (
 <marquee  direction="rtl">
-    <p>Navigating Markets, Maximizing Returns.</p>
+    <p>Helping businesses source premium-quality products in bulk, directly from trusted factories.</p>
 </marquee>
     )
 }

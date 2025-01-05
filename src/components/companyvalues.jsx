@@ -5,6 +5,7 @@ import svg4 from '../assets/bussiness.png'
 import svg3 from '../assets/message-removebg-preview.png'
 import ScrollReveal from "scrollreveal";
 import { useEffect } from "react";
+import { FaBoxesStacked, FaDollarSign, FaGlobe, FaIndustry, FaLocationArrow, FaLocationPinLock, FaMapPin, FaShip, FaStar } from 'react-icons/fa6'
 
 function CompanyValues(){
     useEffect(() => {
@@ -22,41 +23,41 @@ function CompanyValues(){
 <div className="values">
     <div className="value">
         <div className="img up">
- <img src={svg1} alt="" />
+<FaIndustry color='#1c202b' size={50} />
         </div>
        <div className="content up">
 <p>
-Diversified Investment Approach </p>
-<p>Maximize returns while minimizing risk by spreading investments across various asset classes and sectors.</p>
+ Direct Factory Access</p>
+<p>Gain exclusive access to premium-quality products directly from trusted factories, ensuring unbeatable value.</p>
        </div>
     </div>
     <div className="value">
     <div className="img up">
-              <img src={svg4} alt="" />
+              <FaBoxesStacked color='#1c202b' size={50} />
             </div>
        <div className="content up">
         <p>
-        Advanced Risk Management</p>
-        <p>Protect client assets by identifying, assessing, and mitigating risks associated with investments.</p>
+       Bulk Procurement Expertise</p>
+        <p>With a decade of experience, we simplify bulk sourcing, ensuring smooth transactions and timely delivery.</p>
        </div>
     </div>
     <div className="value">
     <div className="img up">
-             <img src={svg3} alt="" />
+            <FaStar color='#1c202b' size={50} />
             </div>
             <div className="content up">
         <p>
-        Client-Centric Solutions </p>
-        <p>Build strong, long-lasting relationships by offering personalized investment solutions tailored to each client’s unique needs and goals.</p>
+      Unmatched Product Quality </p>
+        <p>We prioritize premium quality, sourcing only the best products that meet your business standards.</p>
         </div>
     </div>
     <div className="value">
     <div className="img up">
-             <img src={svg2} alt="" />
+             <FaDollarSign color='#1c202b' size={50}/>
             </div>
             <div className="content up">
-        <p>ESG and Sustainable Investing</p>
-        <p> Integrate environmental, social, and governance (ESG) criteria into investment processes to promote sustainable growth and responsible investing.</p>
+        <p> Cost-Effective Solutions</p>
+        <p>Benefit from factory-direct pricing that saves you money while maintaining superior quality.</p>
         </div>
     </div>
 </div>

@@ -32,7 +32,7 @@ function Home(){
        <Stats />
          <br /><br />
          {/* <Review />   */}
-         <News />
+         {/* <News /> */}
       <Footer /> 
        
         

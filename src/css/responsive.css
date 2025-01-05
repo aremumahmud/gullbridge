@@ -10,7 +10,7 @@
             display: block !important;
         }
         .header_wrap .logo {
-            width: 33% !important;
+            width: 11% !important;
         }
         /* hero */
         .hero .main {
@@ -26,6 +26,11 @@
         /* values */
         .values {
             display: grid !important;
+            grid-template-columns: 1fr;
+            gap: 0rem !important;
+        }
+        .values_ {
+            display: block !important;
             grid-template-columns: 1fr;
             gap: 0rem !important;
         }
