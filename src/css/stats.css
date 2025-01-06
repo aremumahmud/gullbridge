@@ -15,6 +15,11 @@
     flex-direction: column;
 }
 
+.content_content {
+    font-size: .9rem;
+    width: 100%;
+}
+
 .stt .count {
     font-size: 1.7rem;
     font-weight: 500;

@@ -12,7 +12,7 @@
 .client .some_summary {
     flex-direction: column;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .client_image {

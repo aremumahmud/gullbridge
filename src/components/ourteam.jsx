@@ -21,7 +21,7 @@ function OurTeam(){
 {/* <FaIndustry color='#1c202b' size={50} /> */}
         </div>
        <div className="">
-<p><b> Charles Moore E.</b>
+<p><b> Ivan C. M.</b>
 </p>
 <p>Executive Director</p>
        </div>
