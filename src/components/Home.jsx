@@ -3,6 +3,7 @@ import Header from "./Header"
 import Hero from "./Hero"
 import CompanyValues from "./companyvalues"
 import Footer from "./footer"
+import MyClientSays from "./myClients"
 import New from "./new"
 import News from "./news"
 import Review from "./our_reviews"
@@ -32,7 +33,9 @@ function Home(){
        <Stats />
          <br /><br />
          {/* <Review />   */}
-         {/* <News /> */}
+            {/* <News /> */}
+            <MyClientSays />
+            <br /><br /><br /><br /><br />
       <Footer /> 
        
         
